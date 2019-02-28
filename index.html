@@ -1,1 +1,190 @@
-Hello World
+<!DOCTYPE html>
+<html>
+
+<head>
+<title>Active Asset Management</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+/* Style the body */
+body {
+  font-family: Arial;
+  margin: 15;
+}
+
+/* Header/Logo Title */
+.header {
+  display: block;
+  padding: 70px;
+  color: Navy;
+  font-size:35px;
+  text-align: center;
+  font-family: Prelo;
+  background-color: lightsteelblue;
+  position: relative; 
+  z-index: 1
+}
+
+  .header .bg {
+    position: absolute;
+    z-index: -1;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    background: url("Picture1.jpg") center center;
+    opacity: .3;
+    width: 100%;
+    height: 100%;
+}
+
+/* Page Content */
+.content {padding:10px;}
+</style>
+</head>
+<body>
+
+<div class="header">
+ 	<div class="bg"></div>
+	<img src="BrighamHealth_BWH_BannerWhite.png"style="float: left; width: 250px;>"
+	<h1> <b> Active Asset Management </b> </h1>
+</div>
+
+</body>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+
+/* Set height of body and the document to 100% */
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial;
+}
+
+/* Style tab links */
+.tablink {
+  background-color: #000066;
+  color: #FFDE00;
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+}
+
+.tablink:hover {
+  background-color: #000066;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: 100%;
+}
+
+#Home {background-color: white;}
+#Weekly Dashboards {background-color: LightBlue;}
+#Monthly Dashboards {background-color: NavyBlue;}
+#About {background-color: orange;}
+</style>
+</head>
+<body>
+
+
+<button class="tablink" onclick="openPage('Home', this, '#48729C')" id="defaultOpen">Home</button>
+<button class="tablink" onclick="openPage('Weekly Dashboards', this, '#48729C')" id="defaultOpen">Weekly Dashboards</button>
+<button class="tablink" onclick="openPage('Monthly Dashboards', this, '#48729C')">Monthly Dashboards</button>
+<button class="tablink" onclick="openPage('About', this, '#48729C')">About</button>
+
+<div id="Home" class="tabcontent">
+<h2 style="color:Navy;">Recent Highlights</h2>
+
+<h3 style="color:Navy;">BWH</h3>
+<a href="https://partnershealthcare.sharepoint.com/:w:/r/sites/BWH_DSS/_layouts/15/Doc.aspx?sourcedoc=%7BEE79E5B9-C372-4FEA-8691-F7DC44F9A519%7D&file=AAM%20Template%20-%20Week%201.docx&action=default&mobileredirect=true">Week 1 Highlights</a>
+<br />
+<a href="https://partnershealthcare.sharepoint.com/:w:/r/sites/BWH_DSS/_layouts/15/Doc.aspx?sourcedoc=%7B30284218-7742-4EDD-A2D0-CE05111E1A4B%7D&file=AAM%20Template%20-%20Week%202.docx&action=default&mobileredirect=true">Week 2 Highlights</a>
+<br />
+<a href="https://partnershealthcare.sharepoint.com/:w:/r/sites/BWH_DSS/_layouts/15/Doc.aspx?sourcedoc=%7B7DB2CD81-6BC3-49C3-847C-C7EB80C601D6%7D&file=AAM%20Template%20-%20Week%203.docx&action=default&mobileredirect=true">Week 3 Highlights</a>
+<br />
+<a href="https://partnershealthcare.sharepoint.com/:w:/r/sites/BWH_DSS/_layouts/15/Doc.aspx?sourcedoc=%7BB474130E-1E07-4E81-80DB-A1E237762448%7D&file=AAM%20Template%20-%20Week%204.docx&action=default&mobileredirect=true">Week 4 Highlights</a>
+<br />
+<a href="https://partnershealthcare.sharepoint.com/:w:/r/sites/BWH_DSS/_layouts/15/Doc.aspx?sourcedoc=%7B3EC60832-D206-495B-8F44-52B051FC24D0%7D&file=AAM%20Template%20-%20Week%205.docx&action=default&mobileredirect=true">Week 5 Highlights</a>
+
+<h3 style="color:Navy;">BWFH</h3>
+<a href="https://partnershealthcare.sharepoint.com/:w:/r/sites/BWH_DSS/_layouts/15/Doc.aspx?sourcedoc=%7B86EA04A9-7254-4D1D-A746-CFB880ED2AE6%7D&file=BWFH%20AAM%20Template%20-%20Week%201.docx&action=default&mobileredirect=true">Week 1 Highlights</a>
+<br />
+<a href="https://partnershealthcare.sharepoint.com/:w:/r/sites/BWH_DSS/_layouts/15/Doc.aspx?sourcedoc=%7B83E60A39-BFCE-41B4-B3DA-A7794443DB5F%7D&file=BWFH%20AAM%20Template%20-%20Week%202.docx&action=default&mobileredirect=true">Week 2 Highlights</a>
+<br />
+<a href="https://partnershealthcare.sharepoint.com/:w:/r/sites/BWH_DSS/_layouts/15/Doc.aspx?sourcedoc=%7B956399EF-E710-4317-81DF-937C464CE607%7D&file=BWFH%20AAM%20Template%20-%20Week%203.docx&action=default&mobileredirect=true">Week 3 Highlights</a>
+<br />
+<a href="https://partnershealthcare.sharepoint.com/:w:/r/sites/BWH_DSS/_layouts/15/Doc.aspx?sourcedoc=%7B78061B16-4010-40AA-9135-2CFA989E989A%7D&file=BWFH%20AAM%20Template%20-%20Week%204.docx&action=default&mobileredirect=true">Week 4 Highlights</a>
+<br />
+<a href="https://partnershealthcare.sharepoint.com/:w:/r/sites/BWH_DSS/_layouts/15/Doc.aspx?sourcedoc=%7B7C852406-154F-49AC-8B0C-BBECFD66B08B%7D&file=BWFH%20AAM%20Template%20-%20Week%205.docx&action=default&mobileredirect=true">Week 5 Highlights</a>
+</div>
+
+<div id="Weekly Dashboards" class="tabcontent">
+	<h2 style="color:Navy;">AAM for Week Ending February 24, 2018</h2>
+	<div class='container'>
+		<div class='row'>
+		</div>
+		<div class='row'><h3 class='offset3 span7 pagination-centered' id='sheetName'></h3></div>
+		<div class='row'>
+		
+			<ul id = 'menu' class='nav nav-list offset1 span2'>
+				<!-- This is the menu where we will add all of our buttons. -->
+				<!-- <li class='nav-header'>Switching Views</li> -->
+				<!-- <li><a onClick="switchView('LineChart')">LineChart</a></li> -->
+			</ul>
+			<div id='viz'></div>
+			<script type='text/javascript' src='https://bwhbridge.partners.org/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1100px; height: 900px; margin:0 auto;">centered content'><object class='tableauViz' width='1100' height='900' style='display:none;'><param name='host_url' value='https%3A%2F%2Fbwhbridge.partners.org%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BHSurgicalVolumeDashboard&#47;SurgicalVolumeDashboard' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+			<script type='text/javascript' src='https://bwhbridge.partners.org/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1100px; height: 900px; margin:0 auto;">centered content'><object class='tableauViz' width='1100' height='900' style='display:none;'><param name='host_url' value='https%3A%2F%2Fbwhbridge.partners.org%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ORRoomsRunningDashboard&#47;ORRoomsRunningWeekly' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+			<script type='text/javascript' src='https://bwhbridge.partners.org/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1100px; height: 900px; margin:0 auto;">centered content'><object class='tableauViz' width='1100' height='900' style='display:none;'><param name='host_url' value='https%3A%2F%2Fbwhbridge.partners.org%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='ORRoomsRunningDashboard&#47;ORRoomsRunningWeekly' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='Hospital=BWFH' /></object></div>
+			<script type='text/javascript' src='https://dev-bwhbridge.partners.org/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1100px; height: 900px; margin:0 auto;">centered content'><object class='tableauViz' width='1100' height='900' style='display:none;'><param name='host_url' value='https%3A%2F%2Fdev-bwhbridge.partners.org%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BHDischargeVolume&#47;BWHDischargeVolume' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+			<script type='text/javascript' src='https://dev-bwhbridge.partners.org/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1100px; height: 900px; margin:0 auto;">centered content'><object class='tableauViz' width='1100' height='900' style='display:none;'><param name='host_url' value='https%3A%2F%2Fdev-bwhbridge.partners.org%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BHDischargeVolume&#47;BWHDischargeVolume' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='PA_Department=Surgery' /></object></div>
+			<script type='text/javascript' src='https://dev-bwhbridge.partners.org/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1100px; height: 900px; margin:0 auto;">centered content'><object class='tableauViz' width='1100' height='900' style='display:none;'><param name='host_url' value='https%3A%2F%2Fdev-bwhbridge.partners.org%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BHInpatientOperationsDashboard&#47;BWHInpatientOperations' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+			<script type='text/javascript' src='https://bwhbridge.partners.org/javascripts/api/viz_v1.js'></script><div class='tableauPlaceholder' style='width: 1100px; height: 900px; margin:0 auto;">centered content'><object class='tableauViz' width='1100' height='900' style='display:none;'><param name='host_url' value='https%3A%2F%2Fbwhbridge.partners.org%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='BWHAccessCenterDashboard&#47;ExecutiveSummary&#47;pkl9@partners.org&#47;AAM' /><param name='tabs' value='yes' /><param name='toolbar' value='yes' /><param name='showAppBanner' value='false' /><param name='filter' value='iframeSizedToWindow=true' /></object></div>
+			<script>
+			</script>
+
+
+
+</body>
+	 
+</div>
+
+<div id="Monthly Dashboards" class="tabcontent">
+<body>
+</div>
+
+<div id="About" class="tabcontent">
+  <h3>About</h3>
+  <p>Who we are and what we do.</p>
+</div>
+
+<script>
+function openPage(pageName,elmnt,color) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].style.backgroundColor = "";
+  }
+  document.getElementById(pageName).style.display = "block";
+  elmnt.style.backgroundColor = color;
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
+</script>
+   
+</body>
+</html> 
