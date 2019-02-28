@@ -45,7 +45,7 @@ body {
 <body>
 
 <div class="header">
- 	<div class="bg"></div>
+<div class="bg"></div>
 	<img src="BrighamHealth_BWH_BannerWhite.png"style="float: left; width: 250px;>"
 	<h1> <b> Active Asset Management </b> </h1>
 </div>
@@ -128,8 +128,25 @@ body, html {
 <a href="https://partnershealthcare.sharepoint.com/:w:/r/sites/BWH_DSS/_layouts/15/Doc.aspx?sourcedoc=%7B7C852406-154F-49AC-8B0C-BBECFD66B08B%7D&file=BWFH%20AAM%20Template%20-%20Week%205.docx&action=default&mobileredirect=true">Week 5 Highlights</a>
 </div>
 
+
+
 <div id="Weekly Dashboards" class="tabcontent">
-	<h2 style="color:Navy;">AAM for Week Ending February 24, 2018</h2>
+  <h2 id="date-header" style="color:Navy;"></h2>
+  <script type="text/javascript">
+    const monthNames = ["January", "February", "March", "April", "May", "June",
+      "July", "August", "September", "October", "November", "December"
+    ];
+    function setToLastSunday(d) {
+      return d.setDate(d.getDate() - d.getDay());
+    }
+    var sundayDate = new Date(setToLastSunday(new Date()))
+    var sundayMonth = sundayDate.getMonth()
+    var sundayDay = sundayDate.getDate()
+    var sundayYear = sundayDate.getFullYear()
+
+    var dateElem = document.getElementById('date-header')
+    dateElem.innerText = 'AAM for Week Ending ' + monthNames[sundayMonth] + ' ' + sundayDay + ', ' + sundayYear
+  </script>
 	<div class='container'>
 		<div class='row'>
 		</div>
